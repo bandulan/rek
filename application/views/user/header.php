@@ -57,12 +57,12 @@
             $Dbname     = "reklame";
             $db         = new mysqli($host, $username, $password, $Dbname);
 
-            $query = $db->query("SELECT * FROM lokasi ORDER BY id_lokasi ASC");
+            $query = $db->query("SELECT * FROM lokasi");
             while ($row = $query->fetch_assoc()) {
-                $nama = $row["id_lokasi"];
+                $name = $row["id_lokasi"];
                 $lat  = $row["lat"];
                 $long = $row["lng"];
-                echo "addMarker($lat, $long, '$nama');\n";
+                echo "addMarker($lat, $long, '$name');\n";
             }
             ?>
             // Proses membuat marker 

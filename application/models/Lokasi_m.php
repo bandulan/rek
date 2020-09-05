@@ -41,7 +41,9 @@ class Lokasi_m extends CI_Model
         $data = [
             "id_pemilik" => $userid,
             "nama_lok" => $this->input->post('nama_lok', true),
-            "alamat_lok" => $this->input->post('alamat_lok', true)
+            "alamat_lok" => $this->input->post('alamat_lok', true),
+            "lat" => $this->input->post('lat', true),
+            "lng" => $this->input->post('lng', true)
         ];
 
         $this->db->insert('lokasi', $data); //insert to tabel persil

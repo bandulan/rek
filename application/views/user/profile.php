@@ -21,7 +21,7 @@
 
             </ul>
 
-            <a href="<?= base_url('user/editprofile/');  ?><?= $user['id_user'] ?>" class="btn btn-info btn-block">
+            <a href="#" class="btn btn-info btn-block">
                 Edit Profile
             </a>
         </div>

@@ -20,7 +20,7 @@ class User extends CI_Controller
         $data['title'] = 'All Location';
         $this->load->view('user/header', $data);
         $this->load->view('user/index', $data);
-        $this->load->view('user/footer');
+        $this->load->view('user/footer2');
     }
 
     public function profile()
@@ -97,8 +97,8 @@ class User extends CI_Controller
 
         if ($this->form_validation->run() == false) {
             $data['title'] = 'Home';
-            $this->load->view('user/header', $data);
-            $this->load->view('user/inputlokasi');
+
+            $this->load->view('user/inputlokasi', $data);
             $this->load->view('user/footer');
         } else {
             $this->Lokasi_m->inputlok();

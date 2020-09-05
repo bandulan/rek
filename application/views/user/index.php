@@ -8,7 +8,7 @@
                     </div>
                 </div><!-- /.container-fluid -->
             </section>
-            <div class="col-11 mx-auto">
+            <div class="col-12 mx-auto">
 
                 <div id="googleMap"></div>
             </div>
