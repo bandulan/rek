@@ -1,9 +1,9 @@
 <br>
-<div class="col-5 mx-auto">
+<div class="col-lg-6 col-12 mx-auto">
 
     <div class="card card-info">
         <div class="card-header">
-            <h3 class="card-title">Input Lokasi</h3>
+            <h3 class="card-title">Input Billboard</h3>
         </div>
         <!-- /.card-header -->
         <!-- form start -->

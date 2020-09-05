@@ -2,8 +2,11 @@
             <section class="content-header">
                 <div class="container-fluid">
                     <div class="row mb-2">
-                        <div class="col-sm-6">
-                            <h1>Blank Page</h1>
+                        <div class="col-8 col-lg-10">
+                            <h1><?= $title; ?></h1>
+                        </div>
+                        <div class="col-4 col-lg-2">
+                            <a href="<?= base_url('user/tambahlokasi'); ?>" class="btn btn-info btn-sm float-right">Add Location</a>
                         </div>
                     </div>
                 </div><!-- /.container-fluid -->
@@ -13,7 +16,7 @@
             <section class="content">
 
                 <!-- Default box -->
-                <div class="col-6 mx-auto">
+                <div class="col-lg-6 col-12 mx-auto">
                     <?php foreach ($lokasi as $l) : ?>
                         <div class="card">
                             <div class="card-header">

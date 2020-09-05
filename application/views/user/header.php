@@ -178,33 +178,24 @@
                             </a>
                         </li>
 
-                        <li class="nav-header">LOKASI</li>
+                        <li class="nav-header">LOCATION</li>
                         <li class="nav-item">
                             <a href="<?= base_url('user/lokasi'); ?>" class="nav-link">
                                 <i class="nav-icon fas fa-fw fa-search-location"></i>
-                                <p>Daftar Lokasi</p>
+                                <p>All Locations</p>
                             </a>
                         </li>
-                        <li class="nav-item">
-                            <a href="<?= base_url('user/tambahlokasi'); ?>" class="nav-link">
-                                <i class="nav-icon fas fa-fw fa-map-marker-alt"></i>
-                                <p>Input Lokasi</p>
-                            </a>
-                        </li>
-
-                        <li class="nav-header">REKLAME</li>
                         <li class="nav-item">
                             <a href="<?= base_url('user/reklame'); ?>" class="nav-link">
                                 <i class="nav-icon fas fa-fw fa-map-marked-alt"></i>
-                                <p>Daftar Reklame</p>
+                                <p>All Billboards</p>
                             </a>
                         </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">
-                                <i class="nav-icon fas fa-fw fa-ad"></i>
-                                <p>Input Reklame</p>
-                            </a>
-                        </li>
+
+
+
+
+
                         <li class="nav-header">MULTI LEVEL EXAMPLE</li>
                         <li class="nav-item">
                             <a href="#" class="nav-link">

@@ -70,7 +70,7 @@ class User extends CI_Controller
         $userid = $this->session->userdata('id_user');
         $data['lokasi'] = $this->Lokasi_m->getByUser($userid);
 
-        $data['title'] = 'Home';
+        $data['title'] = 'My Location';
         $this->load->view('user/header', $data);
         $this->load->view('user/lokasi', $data);
         $this->load->view('user/footer');
@@ -130,7 +130,7 @@ class User extends CI_Controller
         $userid = $this->session->userdata('id_user');
         $data['reklame'] = $this->Lokasi_m->getReklameUser($userid);
 
-        $data['title'] = 'Home';
+        $data['title'] = 'All Billboard';
         $this->load->view('user/header', $data);
         $this->load->view('user/reklame', $data);
         $this->load->view('user/footer');

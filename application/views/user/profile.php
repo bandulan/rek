@@ -1,5 +1,5 @@
 <br>
-<div class="col-6 mx-auto">
+<div class="col-lg-6 col-12 mx-auto">
 
     <div class="card card-info card-outline">
         <div class="card-body box-profile">
