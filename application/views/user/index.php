@@ -8,15 +8,21 @@
                     </div>
                 </div><!-- /.container-fluid -->
             </section>
+            <div class="col-11 mx-auto">
+
+                <div id="googleMap"></div>
+            </div>
+            <br>
+
 
             <!-- Main content -->
             <section class="content">
 
                 <!-- Default box -->
-                <div class="col-5 mx-auto">
+                <div class="col-10 col-lg-5 mx-auto">
                     <?php foreach ($lokasi as $l) : ?>
 
-                        <div class="card">
+                        <div class="card mb-3">
                             <div class="card-header">
                                 <h3 class="card-title">
                                     <?= $l['nama_lok'] ?>

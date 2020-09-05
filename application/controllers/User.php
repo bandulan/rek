@@ -17,7 +17,7 @@ class User extends CI_Controller
         $data['user'] = $this->db->get_where('user', ['id_user' => $this->session->userdata('id_user')])->row_array();
         $data['lokasi'] = $this->Lokasi_m->getAll();
 
-        $data['title'] = 'Home';
+        $data['title'] = 'All Location';
         $this->load->view('user/header', $data);
         $this->load->view('user/index', $data);
         $this->load->view('user/footer');
